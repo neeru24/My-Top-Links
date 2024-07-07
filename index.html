@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Top Links</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #4e54c8, #8f94fb);
+            color: #333;
+        }
+        .main-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgba(255, 255, 255, 0.9); /* Background color with transparency */
+        }
+        .links-container {
+            max-width: 600px;
+            width: 100%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .link-item {
+            margin: 10px 0;
+            width: 100%;
+            max-width: 400px;
+            display: flex;
+            align-items: center;
+        }
+        .link-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 25px;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: background 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .link-button:hover {
+            background: linear-gradient(to right, #2575fc, #6a11cb);
+        }
+        .link-logo {
+            width: 30px;
+            height: 30px;
+            margin-right: 15px;
+        }
+        /* Increase the size of Coding Ninjas logo */
+        .coding-ninjas .link-logo {
+            width: 40px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="links-container">
+            <h1>My Top Links</h1>
+            <div class="link-item">
+                <a class="link-button" href="https://github.com/neeru24">
+                    <img class="link-logo" src="https://img.icons8.com/color/452/github--v1.png" alt="GitHub Logo">
+                    GitHub Profile
+                </a>
+            </div>
+            <div class="link-item">
+                <a class="link-button" href="https://leetcode.com/u/Neeru_Gangarh/">
+                    <img class="link-logo" src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode Logo">
+                    LeetCode Profile
+                </a>
+            </div>
+            <div class="link-item coding-ninjas">
+                <a class="link-button" href="https://www.naukri.com/code360/profile/b15e3a29-8a21-41fe-9dfd-a03155f97134">
+                    <img class="link-logo" src="https://www.codingninjas.com/assets-landing/images/CNLOGO.svg" alt="Coding Ninjas Logo">
+                    Coding Ninjas Profile
+                </a>
+            </div>
+            <div class="link-item">
+                <a class="link-button" href="https://youtu.be/HxgnzT8Tj9g?si=mLHCC3Q0DVRs094f">
+                    <img class="link-logo" src="https://www.logo.wine/a/logo/YouTube/YouTube-Icon-Full-Color-Logo.wine.svg" alt="YouTube Podcast Logo">
+                    YouTube Podcast
+                </a>
+            </div>
+            <div class="link-item">
+                <a class="link-button" href="https://www.youtube.com/@neeru_05">
+                    <img class="link-logo" src="https://www.logo.wine/a/logo/YouTube/YouTube-Icon-Full-Color-Logo.wine.svg" alt="YouTube Channel Logo">
+                    YouTube Channel
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
