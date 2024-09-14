@@ -4,5 +4,4 @@ Welcome to **My TOP LINKS**! This page serves as a centralized hub where you can
 
 <img src = "TopLinks_Neeru.png">
 
-### 🔗Check out My Top Links 
-<a href = "https://mytoplinks-neeru.netlify.app/" alt="mytoplinks"> Here </a>
+🔗Check out My Top Links <a href = "https://mytoplinks-neeru.netlify.app/" alt="mytoplinks">Here </a>
